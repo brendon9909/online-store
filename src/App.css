@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(91, 91, 240),
+    rgb(128, 0, 107)
+  ); /*change body color*/
+}
+
+.myCaption {
+  /*decorate the caption text on about page*/
+  color: white;
+  font-size: x-large;
+  font-family: monospace;
+}
+
+.warn {
+  /*make all text red for warning on about page*/
+  color: red;
+}
+
+.mail {
+  /*class to change gmail logo size*/
+  width: 100px;
+}
+
+.phone {
+  /*class to change size of phone logo*/
+  width: 50px;
+}
+
+.topnav {
+  /*change color and size of top navigation bar*/
+  background-color: #282c348f;
+  padding: 25px;
+}
+
+.searchIcon {
+  /*change size of the search icon image*/
+  width: 15px;
+}
+
+.searchInput {
+  /*change the visibility and size of the search bar*/
+  display: none;
+  width: 10px;
+}
+
+.myLink {
+  /*change the routes text to looks less like link text*/
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.vertical {
+  /*change size and font and color of the login section*/
+  margin: 10vh auto;
+  border: 2px solid black;
+  padding: 100px;
+  color: black;
+  height: 100vh;
+  background-color: white;
+  max-width: 100vh;
+  border-radius: 10%;
+  font-family: "Permanent Marker", cursive;
+}
+
+.invalidUser {
+  /*change text color for word for if username is invalid*/
+  color: red;
+}
+
+.longInput {
+  width: 75vh;
+}
+
+.innerText {
+  margin: -9vh;
+}
+
+.innerText2 {
+  margin: -4vh;
+}
+
+.fixHigh {
+  min-height: 0px;
+  height: 0px;
+}
+
+#logButton {
+  /*change the size of the login/logout button and make it more circular*/
+  width: 160px;
+  border-radius: 25%;
+}
+
+.myLink.active {
+  /*change the background color on the navigation of the route thats active*/
+  background-color: black;
+  padding: 20px;
+}
+
+.myLink:hover {
+  /*change background color of the the nav text of the route being hovered over*/
+  background-color: rgb(24, 24, 24);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.psConsole {
+  /*change size of image on products page*/
+  height: 300px;
+}
+
+.myProducts {
+  /*change font on products page*/
+  font-family: "Permanent Marker", cursive;
+}
+
+.xbConsole {
+  /*change size of image on products page*/
+  height: 310px;
+}
+
+.myPrice {
+  /*decorate text that shows the total price*/
+  color: white;
+  font-size: smaller;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
